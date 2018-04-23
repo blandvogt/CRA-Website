@@ -1,0 +1,48 @@
+#reactLogo{
+  animation: reactLogo 5s linear infinite;
+  max-width: 150px;
+}
+
+@keyframes reactLogo {
+  from{
+    transform: rotateZ(0deg) ;
+  }
+  to{
+    transform: rotateZ(180deg) ;
+  }
+}
+
+#expNav{
+  list-style: none;
+  text-align: center;
+}
+
+.expNavItem{
+  display: inline-block;
+  padding: 10px;
+  padding: 10px 30px 10px 30px;
+}
+
+.expNavLink{
+  color: black;
+  font-size: 20px;
+  border: none;
+  list-style: none;
+  background-color: white;
+}
+
+.expNavLink:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+#tech, #edu, #exp, #pro, #lead{
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  #expNav{
+    text-align: center;
+    margin-right: 40px;
+  }
+}

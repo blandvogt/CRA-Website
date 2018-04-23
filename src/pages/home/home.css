@@ -1,0 +1,96 @@
+.pic_me{
+  border-radius: 10px;
+  max-width: 50%;
+  height: auto;
+  border: black solid 2px;
+}
+
+.icon{
+  width: 125px;
+  margin-top: 20px;
+  border-radius: 0px;
+}
+
+.icon:hover{
+  animation: iconHover 1 10s linear;
+}
+
+@keyframes iconHover {
+  to { border-radius: 1000px; }
+}
+
+.navbar{
+  font-size: 20px;
+}
+
+#logo{
+  width: 40px;
+  border-radius: 80px;
+}
+
+#impact{
+  font-weight: bold;
+  font-style: italic;
+}
+
+#homeLead{
+  font-size: 1.7rem;
+  color: #439BB0;
+}
+
+.homeName{
+  font-style: italic;
+  color: white;
+  font-size: 80px;
+}
+
+#homeJumbotron{
+  background-image: url('../images/afternoon.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#homeJumbotron2{
+  background-image: url('../images/afternoon.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .homeName{
+    text-align: center;
+    font-style: none;
+    font-size: 60px !important;
+  }
+  #homeLead{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .pic_me{
+    max-width: 60%;
+    position: relative;
+    left: 22%;
+    margin-top: 10px;
+  }
+  #bgHome{
+    height: auto;
+    min-height: 100%;
+    position: inherit;
+  }
+  #homeJumbotron{
+    max-width: 1200px;
+    max-height: 1200px;
+    background-image: url('../images/afternoon.jpg');
+  }
+}
+
+@media (min-width: 2560px) {
+  .pic_me{
+    max-width: 40%;
+  }
+  #homeLead{
+    font-size: 2.5rem;
+  }
+}

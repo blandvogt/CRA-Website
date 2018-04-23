@@ -1,0 +1,19 @@
+.figure-img{
+  border: 2px solid black;
+}
+
+.orange{
+  color: darkorange;
+}
+
+.bgOrange{
+  background-color: darkorange;
+}
+
+.blue{
+  color: #439BB0;
+}
+
+.carousel-indicators{
+  font-weight: bold;
+}
